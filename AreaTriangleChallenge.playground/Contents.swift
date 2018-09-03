@@ -9,13 +9,13 @@ class AreaTriangle  {
     // height property
     var height: Int? = 10;
     
-    // Default Constructor (No parameter)
+    // Default init (No parameter)
     // (Used to create instance).
     init()  {
         
     }
     
-    // Contructor with 2 parameters.
+    // init with 2 parameters.
     // (Used to create instance)
     // self.base refers to the base property of the class
     init (base: Int, height: Int)  {
